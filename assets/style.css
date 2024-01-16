@@ -312,6 +312,7 @@ nav ul a:hover {
 
 .second-section .container .row {
   gap: 53px;
+  padding-top: 100px;
 }
 
 .second-section .container .row > div {
@@ -700,6 +701,7 @@ footer .sep {
   .second-section .container .row {
     flex-direction: column;
     gap: 24px;
+    padding-top: 24px;
   }
 
   .second-section .container .row p {
