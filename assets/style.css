@@ -1,82 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
-
-:root{
-    --primary: #FF5400;
-    --primary-20: #FBB56333;
-    --primary-5: #FBB5630D;
-    --dark: #131318;
-    --dark-70: #131318B2;
-    --dark-5: #1313180D;
-    --gray: #5A5A5D;
-    --blue-20: #29CEF633;
-    --blue-5: #29CEF60D;
-    --light: #fff;
-    --light-80: #FFFFFFCC;
+:root {
+  --primary: #ff5400;
+  --primary-20: #fbb56333;
+  --primary-5: #fbb5630d;
+  --dark: #131318;
+  --dark-70: #131318b2;
+  --dark-5: #1313180d;
+  --gray: #5a5a5d;
+  --blue-20: #29cef633;
+  --blue-5: #29cef60d;
+  --light: #fff;
+  --light-80: #ffffffcc;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: "Mulish", sans-serif;
 }
 
-
-h1, h2, h3, h4, h5, h6{
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--dark);
 }
 
-
-.container{
-    max-width: 1190px;
-    margin: auto;
-    padding: 0 10px;
+.container {
+  max-width: 1190px;
+  margin: auto;
+  padding: 0 10px;
 }
 
-.d-flex{
-    display: flex;
+.d-flex {
+  display: flex;
 }
 
-.d-block{
-    display: block;
+.d-block {
+  display: block;
 }
 
-.justify-content-center{
-    justify-content: center;
+.justify-content-center {
+  justify-content: center;
 }
-.justify-content-start{
-    justify-content: start;
+.justify-content-start {
+  justify-content: start;
 }
-.justify-content-end{
-    justify-content: end;
-}
-
-.align-items-center{
-    align-items: center;
-}
-.align-items-start{
-    align-items: start;
-}
-.align-items-end{
-    align-items: end;
+.justify-content-end {
+  justify-content: end;
 }
 
-.text-center{
-    text-align: center;
+.align-items-center {
+  align-items: center;
 }
-.text-start{
-    text-align: left;
+.align-items-start {
+  align-items: start;
 }
-.text-end{
-    text-align: right;
+.align-items-end {
+  align-items: end;
 }
 
-
+.text-center {
+  text-align: center;
+}
+.text-start {
+  text-align: left;
+}
+.text-end {
+  text-align: right;
+}
 
 @media (max-width: 768px) {
-    
 }
 
 @media (max-width: 576px) {
-    
 }
