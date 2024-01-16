@@ -364,6 +364,7 @@ nav ul a:hover {
 .destination-grid-items .item {
   position: relative;
   cursor: pointer;
+  height: 300px;
 }
 
 .destination-grid-items .item:hover::before {
@@ -721,7 +722,7 @@ footer .sep {
     flex-direction: column;
     grid-gap: 24px;
   }
-  .destination-grid-items img {
+  .destination-grid-items .item, .destination-grid-items img {
     height: 176px;
   }
 
