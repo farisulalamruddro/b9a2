@@ -650,6 +650,10 @@ footer .sep {
     line-height: normal;
   }
 
+  header{
+    padding: 18px 0px;
+  }
+
   .desk-nav {
     display: none;
   }
