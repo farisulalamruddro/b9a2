@@ -526,6 +526,63 @@ nav ul a:hover {
 
 /* --- */
 
+.stories-section{
+  background-color: #F7F8FA;
+  margin: 50px 0px;
+}
+
+.stories-section .row{
+  padding: 50px 0px;
+}
+
+.post-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.post-card {
+  flex: 1 0 calc(25% - 20px); 
+  min-width: 170px;
+  box-sizing: border-box;
+}
+
+
+.post-card .featured-img{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 16px;
+  margin-bottom: 10px;
+}
+
+.post-content h3 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin: 10px 0px;
+}
+
+.category-label{
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--primary);
+  padding: 4px 8px;
+  width: fit-content;
+  background-color: var(--primary-5);
+  border: 1px solid var(--primary-20);
+  border-radius: 8px;
+}
+
+.view-more{
+  margin-top: 40px;
+}
+
+/* --- */
+
 .seventh-section .container .row {
   gap: 24px;
 }
