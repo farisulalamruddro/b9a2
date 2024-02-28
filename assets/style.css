@@ -871,7 +871,7 @@ footer .sep {
     line-height: 12px;
   }
 
-  .post-content .short-desc {
+  .post-content .short-desc q {
     font-size: 12px;
     line-height: 16px;
   }
